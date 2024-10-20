@@ -1,0 +1,29 @@
+/* UserProfile.css */
+.user-card, .games-card {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-card .card-body, .games-card .card-body {
+    text-align: left;
+}
+
+.games-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.games-card li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.game-image {
+    width: 150px;  
+    height: 150px; 
+    object-fit: cover; /* Mantiene le proporzioni e riempie l'area */
+    margin: 5px; 
+}

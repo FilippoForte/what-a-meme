@@ -1,0 +1,74 @@
+
+/* Stili per il contenitore del meme */
+.meme-card {
+    width: 50%;
+    max-width: 600px;
+    border: none; /* Rimuove il bordo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra sottile */
+    position: relative;
+    overflow: hidden;
+}
+
+/* Stili per l'immagine del meme */
+.meme-image {
+    width: 100%; /* Assicura che l'immagine riempia il contenitore */
+    height: 400px; /* Imposta un'altezza fissa */
+    object-fit: cover; /* Mantiene le proporzioni dell'immagine */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Stili per i pulsanti delle didascalie */
+.caption-button {
+    width: 270px;
+    font-size: 1.2rem; /* Aumenta la dimensione del testo */
+    border-radius: 30px; /* Aggiunge angoli arrotondati ai pulsanti */
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+/* Stili per il pulsante del nuovo gioco */
+.new-game-button {
+    background-color: #007bff; /* Cambia il colore di sfondo */
+    color: white; /* Cambia il colore del testo */
+    font-size: 1.2rem; /* Aumenta la dimensione del testo */
+    padding: 10px 20px; /* Aggiunge padding */
+    border-radius: 30px; /* Aggiunge angoli arrotondati */
+    border: none; /* Rimuove il bordo */
+    transition: background-color 0.3s; /* Aggiunge una transizione */
+    margin-top: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.new-round-button{
+    background-color: #007bff; /* Cambia il colore di sfondo */
+    color: white; /* Cambia il colore del testo */
+    font-size: 1.2rem; /* Aumenta la dimensione del testo */
+    padding: 10px 20px; /* Aggiunge padding */
+    border-radius: 30px; /* Aggiunge angoli arrotondati */
+    border: none; /* Rimuove il bordo */
+    transition: background-color 0.3s; /* Aggiunge una transizione */
+    margin-top: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.info-message {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.win-message {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.lost-message {
+    background-color: #f8d7da;
+    color: #721c24;
+}
